@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benvenuti in Romania</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <style>
+        body {
+            padding-top: 70px; /* Altezza della navbar */
+        }
+    </style>
+    
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Romania</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Informazioni</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#attractions">Attrazioni</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- Hero Section -->
+<section class="bg-light text-dark text-center p-5" style="background-image: url('img/hero.jpg'); background-size: cover; color: white;">
+    <div class="container">
+        <h1 class="display-4">Benvenuti in Romania</h1>
+        <p class="lead">Scopri la bellezza e la cultura unica della Romania</p>
+    </div>
+</section>
+
+<!-- Informazioni sulla Romania -->
+<section id="about" class="p-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>Informazioni sulla Romania</h2>
+                <p>La Romania è un paese ricco di storia, cultura e paesaggi mozzafiato. Situata in Europa orientale, è famosa per i suoi castelli, le montagne e la vibrante capitale, Bucarest.</p>
+                <p>Il paese è conosciuto per la leggenda del Conte Dracula e il magnifico Castello di Bran, le antiche tradizioni dei Carpazi, e le città medievali ben conservate come Sighisoara e Brasov.</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="img/sibiu.jpg" class="img-fluid" alt="Centro storico di Sibiu, Romania">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Attrazioni Turistiche -->
+<section id="attractions" class="bg-light p-5">
+    <div class="container">
+        <h2 class="text-center">Attrazioni Turistiche</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/bran_castle.jpg" class="card-img-top" alt="Castello di Bran">
+                    <div class="card-body">
+                        <h5 class="card-title">Castello di Bran</h5>
+                        <p class="card-text">Conosciuto come il castello di Dracula, è una delle attrazioni più visitate della Romania.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/parliament.jpg" class="card-img-top" alt="Palazzo del Parlamento">
+                    <div class="card-body">
+                        <h5 class="card-title">Palazzo del Parlamento</h5>
+                        <p class="card-text">Situato a Bucarest, è uno degli edifici amministrativi più grandi del mondo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/transfagarasan.jpg" class="card-img-top" alt="Transfagarasan">
+                    <div class="card-body">
+                        <h5 class="card-title">Transfagarasan</h5>
+                        <p class="card-text">Una delle strade più scenografiche d'Europa che attraversa i Monti Fagaras.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center p-3">
+    <p>© 2024 Romania. Tutti i diritti riservati a Mihali Sebastian.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
